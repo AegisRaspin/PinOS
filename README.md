@@ -1,6 +1,6 @@
 # PinOS
 
-An experimental Linux-based Operatin system project.
+An experimental Linux-based Operating system project.
 
 ## About
 
@@ -12,7 +12,7 @@ This project is currently in its early development and research stages.
 
 - Explore Linux From Scratch (LFS).
 - Learn low-level programming with C.
-- Understand compilation, boostrapping and libraries.
+- Understand compilation, bootstrapping and libraries.
 - Develop a distinctive identity and user experience.
 - Experimenting with creating a lightweight Linux-based system.
 

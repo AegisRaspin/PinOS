@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="800"
+   height="250"
+   viewBox="0 0 211.66666 66.145833"
+   version="1.1"
+   id="svg6091"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6088">
+    <linearGradient
+       xlink:href="#linearGradient4632"
+       id="linearGradient4634"
+       x1="31.668741"
+       y1="93.917122"
+       x2="72.363861"
+       y2="93.917122"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7824082,0,0,2.7824082,-87.836541,-226.73311)" />
+    <linearGradient
+       id="linearGradient4632">
+      <stop
+         style="stop-color:#424242;stop-opacity:1;"
+         offset="0"
+         id="stop4628" />
+      <stop
+         style="stop-color:#9f9f9f;stop-opacity:0.88407898;"
+         offset="1"
+         id="stop4630" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.7099px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';fill:url(#linearGradient4634);fill-opacity:1;stroke-width:0.736178"
+       x="-5.1562304"
+       y="62.512833"
+       id="text4321"
+       transform="scale(1.045649,0.95634384)"><tspan
+         id="tspan4319"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold';fill:url(#linearGradient4634);fill-opacity:1;stroke-width:0.736178"
+         x="-5.1562304"
+         y="62.512833">Pin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.7099px;line-height:0;font-family:'Noto Sans Telugu';-inkscape-font-specification:'Noto Sans Telugu';fill:#06070b;fill-opacity:1;stroke-width:0.736178"
+       x="130.07463"
+       y="61.482182"
+       id="text4325"
+       transform="scale(1.045649,0.95634385)"><tspan
+         id="tspan4323"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#06070b;fill-opacity:1;stroke-width:0.736178"
+         x="130.07463"
+         y="61.482182">OS</tspan></text>
+  </g>
+</svg>

@@ -9,3 +9,5 @@ The current decided colour scheme is a set of blues, leaning to more muted colou
 ## Notes
 
 Branding is still under development. Assets may change as the project evolves.
+
+Files in linked directories are likely not fully functional on Windows's Github repository pages.

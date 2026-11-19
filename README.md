@@ -1,28 +1,29 @@
 # PinOS
 
-An experimental Linux-based Operating system project.
+PinOS is an experimental, lightweight Linux distribution built using Arch Linux and Archiso.
 
 ## About
 
-PinOS is a personal operating system development project of mine focused on exploring Linux, operating system architecture, system configuration and low-level programming.
+PinOS is a personal operating system development project focused on exploring Linux distribution architecture, system configuration, package management, and low-level software development.
 
-This project is currently in its early development and research stages.
+The project is currently in its early development and research stages.
 
 ## Project Goals
 
-- Explore Linux From Scratch (LFS).
+- Build an Arch Linux-based distribution using Archiso.
+- Create and customise an Arch Linux installation environment.
 - Learn low-level programming with C.
-- Understand compilation, bootstrapping and libraries.
+- Understand Linux boot processes, package management, and system configuration.
 - Develop a distinctive identity and user experience.
-- Experimenting with creating a lightweight Linux-based system.
+- Produce lightweight and usable installation media.
 
 ## Development
 
-Development is currently focused on learning the foundations required to build and customise a Linux-based operating system.
+Development is currently focused on learning the foundations required to build, customise, and package an Arch Linux-based distribution. Archiso is the primary tool used for designing and generating the system images.
 
 ## Status
 
-- Early development / Research (12/11/2026- )
+- Early development / Research: 12 November 2026—
 
 ## License
 

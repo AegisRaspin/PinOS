@@ -1,0 +1,19 @@
+# Archiso build output
+/work/
+/out/
+
+# Generated ISO images
+*.iso
+*.iso.sig
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor files
+*.swp
+*~
+
+# Operating system files
+.DS_store
+Thumbs.db

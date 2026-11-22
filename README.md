@@ -23,7 +23,8 @@ Development is currently focused on learning the foundations required to build, 
 
 ## Status
 
-- Early development / Research: 12 November 2026—
+- Research: 12 November 2026—22 November 2026
+- Early Development/Prototyping: 22 November 2026-
 
 ## License
 

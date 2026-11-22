@@ -4,10 +4,12 @@ arch-install-scripts
 archinstall
 b43-fwcutter
 base
+base-devel
 bcachefs-tools
 bind
 bolt
 brltty
+btop
 btrfs-progs
 clonezilla
 cloud-init
@@ -27,10 +29,14 @@ espeakup
 ethtool
 exfatprogs
 f2fs-tools
+fastfetch
 fatresize
 foot-terminfo
 fsarchiver
+fzf
 ghostty-terminfo
+git
+github-cli
 gpart
 gpm
 gptfdisk
@@ -72,6 +78,7 @@ mtools
 nano
 nbd
 ndisc6
+neovim
 nfs-utils
 nilfs-utils
 nmap
@@ -111,6 +118,7 @@ testdisk
 tmux
 tpm2-tools
 tpm2-tss
+tree
 udftools
 usb_modeswitch
 usbmuxd
@@ -125,4 +133,6 @@ wvdial
 xdg-utils
 xfsprogs
 xl2tpd
+zoxide
 zsh
+

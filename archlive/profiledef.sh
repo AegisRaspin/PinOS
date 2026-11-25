@@ -3,7 +3,7 @@
 
 iso_name="pinos"
 iso_label="PINOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="PinOS Project"
+iso_publisher="PinOS Project <https://archlinux.org>"
 iso_application="PinOS Live Environment"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"

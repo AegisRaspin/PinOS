@@ -43,6 +43,7 @@ gptfdisk
 grml-zsh-config
 grub
 hdparm
+htop
 hyperv
 intel-ucode
 irssi
@@ -100,6 +101,7 @@ pv
 qemu-guest-agent
 refind
 reflector
+ripgrep
 rsync
 rxvt-unicode-terminfo
 screen

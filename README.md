@@ -6,7 +6,7 @@ PinOS is an experimental, lightweight Linux distribution built using Arch Linux 
 
 PinOS is a personal operating system development project focused on exploring Linux distribution architecture, system configuration, package management, and low-level software development.
 
-The project is currently in its early development and research stages.
+The project is currently in its early development stage.
 
 ## Project Goals
 
@@ -25,7 +25,3 @@ Development is currently focused on learning the foundations required to build, 
 
 - Research: 12 November 2026—22 November 2026
 - Early Development/Prototyping: 22 November 2026-
-
-## License
-
-TBD.

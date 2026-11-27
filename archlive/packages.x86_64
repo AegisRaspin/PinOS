@@ -136,7 +136,10 @@ wpa_supplicant
 wvdial
 xdg-utils
 xfsprogs
+xfce4
+xfce4-goodies
 xl2tpd
+xorg-server
 zoxide
 zsh
 

@@ -1,27 +1,110 @@
+
 # PinOS
 
-PinOS is an experimental, lightweight Linux distribution built using Arch Linux and Archiso.
+**PinOS** is an experimental, Arch Linux-based operating system built using [Archiso](https://gitlab.archlinux.org/archlinux/archiso).
 
-## About
+The project aims to explore Linux distribution development, system configuration, and the process of building and customising a Linux-based operating system.
 
-PinOS is a personal operating system development project focused on exploring Linux distribution architecture, system configuration, package management, and low-level software development.
+PinOS is currently in early development, with its first prototype targeting a functional, lightweight desktop environment.
 
-The project is currently in its early development stage.
+## Features
 
-## Project Goals
+The current prototype includes:
 
-- Build an Arch Linux-based distribution using Archiso.
-- Create and customise an Arch Linux installation environment.
-- Learn low-level programming with C.
-- Understand Linux boot processes, package management, and system configuration.
-- Develop a distinctive identity and user experience.
-- Produce lightweight and usable installation media.
+- **Arch Linux base** – Built using Archiso and official Arch Linux repositories.
+- **XFCE** – A desktop environment providing a graphical user interface.
+- **LightDM** – Display manager for graphical login sessions.
+- **Zsh** – Default shell for the live user.
+- **Sudo** – Administrative privileges through the `wheel` group.
+- **Networking** – Network connectivity and DNS resolution.
+- **British English** – Configured `en_GB` locale.
+
+## System Information
+
+| Property | Details |
+|---|---|
+| Base distribution | Arch Linux |
+| Build system | Archiso |
+| Architecture | x86_64 |
+| Desktop environment | XFCE |
+| Display manager | LightDM |
+| Default shell | Zsh |
+| Locale | en_GB |
+| Release | 0.1.0 (prototype) |
+
+## Building
+
+PinOS is built using Archiso on an Arch Linux host.
+
+### Requirements
+
+- Arch Linux build environment
+- `archiso`
+- `qemu-desktop` (for virtual machine testing)
+- `edk2-ovmf` (for UEFI virtual machine testing)
+
+### Build instructions
+
+Clone the repository and enter the project directory:
+
+```
+git clone https://github.com/AegisRaspin/PinOS.git
+cd PinOS
+```
+
+Build the ISO using:
+
+```
+mkarchiso -v -w work -o out archlive
+```
+
+The generated ISO image will be placed in the `out/` directory.
+
+### Testing
+
+To test the generated ISO using QEMU:
+
+```
+run_archiso -i out/*.iso
+```
+
+For additional build and testing information, see the project documentation.
+
+## Limitations
+
+PinOS is an experimental live environment. The current prototype does not include:
+
+- An automated graphical or command-line installer.
+- Persistent storage between live sessions.
+- Individual user-account creation.
+- ARM architecture support.
+- Secure Boot support.
+
+These limitations reflect the scope of the current prototype and may change in future releases.
+
+## Documentation
+
+Additional project documentation is maintained in the `docs/` directory.
+
+This includes:
+
+- Build guide
+- Project decisions
+- Development roadmap
+- Scope
 
 ## Development
 
-Development is currently focused on learning the foundations required to build, customise, and package an Arch Linux-based distribution. Archiso is the primary tool used for designing and generating the system images.
+PinOS is a personal development project focused on understanding Linux system architecture and distribution development.
 
-## Status
+Future development may explore installation, user management, system customisation, and additional hardware architectures.
 
-- Research: 12 November 2026—22 November 2026
-- Early Development/Prototyping: 22 November 2026-
+## Acknowledgements
+
+PinOS is built upon the work of the Arch Linux project and its contributors.
+
+- [Arch Linux](https://archlinux.org/)
+- [Archiso – GitLab](https://gitlab.archlinux.org/archlinux/archiso)
+- [Archiso – GitHub mirror](https://github.com/archlinux/archiso)
+- [ArchWiki](https://wiki.archlinux.org/)
+
